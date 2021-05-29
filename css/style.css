@@ -90,3 +90,14 @@
 .modal-header{
     background-color: #BB86FC;
 }
+
+
+.vl {
+  border-left: 6px solid green;
+}
+
+.logo{
+  display: block;
+  padding: 0 0;
+  height: 60px;
+}
