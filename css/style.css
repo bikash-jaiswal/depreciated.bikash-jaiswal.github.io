@@ -1,8 +1,20 @@
+html{
+  font-family: 'Raleway', sans-serif;
+}
+
 .nav-item:hover {
   /* font-size: 1.2% !important; */
   color: teal !important;
 }
 
+
+
+.welcome-page{
+  position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+  /* text-align: center; */
+}
 .section-heading {
   margin-top: 1rem !important;
 }
@@ -144,4 +156,41 @@ ul.timeline > li:before {
 a{
   text-decoration: none;
   color: aliceblue;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .top-margin{
+    /* margin-top: 50%; */
+    padding-top: 20%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .top-margin{
+    padding-top: 15%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .top-margin{
+    padding-top: 12%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .top-margin{
+    padding-top: 10%;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .top-margin{
+    padding-top: 5%;
+  }
 }
