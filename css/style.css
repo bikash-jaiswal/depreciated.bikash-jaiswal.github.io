@@ -7,6 +7,12 @@ html{
   color: teal !important;
 }
 
+.about-image{
+  /* width: 70%;
+  max-height: 70%; */
+float:right;
+height:auto;
+}
 
 
 .welcome-page{
@@ -161,6 +167,13 @@ a{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  p {
+    font-size: small;
+  }
+  img{
+    height: 70%;
+    height: 70%;
+  };
   .top-margin{
     /* margin-top: 50%; */
     padding-top: 20%;
@@ -172,12 +185,18 @@ a{
   .top-margin{
     padding-top: 15%;
   }
+  p {
+    font-size: smaller;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .top-margin{
     padding-top: 12%;
+  }
+  p {
+    font-size:small;
   }
 } 
 
@@ -186,11 +205,17 @@ a{
   .top-margin{
     padding-top: 10%;
   }
+  p {
+    font-size:medium;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .top-margin{
     padding-top: 5%;
+  }
+  p {
+    font-size:medium;
   }
 }
