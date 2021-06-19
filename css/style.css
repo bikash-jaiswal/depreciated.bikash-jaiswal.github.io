@@ -47,7 +47,9 @@ height:auto;
   color: teal;
   /* background-color:aliceblue; */
 }
-
+.fab:hover{
+  color:teal;
+}
 .project1-bg {
   background-image: url("../assets/lisa-dribbble.gif");
 }
@@ -186,7 +188,7 @@ a{
     padding-top: 15%;
   }
   p {
-    font-size: smaller;
+    font-size: small;
   }
 }
 
@@ -196,7 +198,7 @@ a{
     padding-top: 12%;
   }
   p {
-    font-size:small;
+    font-size:medium;
   }
 } 
 
@@ -206,7 +208,7 @@ a{
     padding-top: 10%;
   }
   p {
-    font-size:medium;
+    font-size:large;
   }
 } 
 
@@ -216,6 +218,6 @@ a{
     padding-top: 5%;
   }
   p {
-    font-size:medium;
+    font-size:larger;
   }
 }
